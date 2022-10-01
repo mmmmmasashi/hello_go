@@ -2,11 +2,10 @@ package main
 
 import (
 	"fmt"
-
-	"rsc.io/quote"
+	"time"
 )
 
 func main() {
-
-	fmt.Println(quote.Go())
+	fmt.Printf("Hello World!")
+	fmt.Printf("this time is ", time.Now())
 }
